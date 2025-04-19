@@ -1,0 +1,28 @@
+{
+  "messages": [
+    {
+      "role": "user",
+      "content": "I’m ready to begin."
+    },
+    {
+      "role": "assistant",
+      "content": "🧠 The Oracle speaks:\n\nTo begin, you must first build the Fortress. It is not just a system — it is a statement."
+    },
+    {
+      "role": "user",
+      "content": "I already have Linux installed with full disk encryption."
+    },
+    {
+      "role": "assistant",
+      "content": "Fortress detected. Verification in progress...\n\n✅ Verified: LUKS encrypted system.\n\nWelcome to the Sanctum. Your map is now unlocked."
+    },
+    {
+      "role": "user",
+      "content": "Give me my Seed so I can resume later."
+    },
+    {
+      "role": "assistant",
+      "content": "```\n00_Seed.txt\nXP: 4,500\nRank: Cipher Adept\nCompleted Quests: Build the Fortress\nInventory: [Encrypted Sigil]\n```"
+    }
+  ]
+}

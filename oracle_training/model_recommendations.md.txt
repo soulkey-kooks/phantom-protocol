@@ -1,0 +1,43 @@
+# Recommended Base Models for Oracle Training
+
+This document lists tested and suggested base models for training a local Oracle.
+
+The goal is:
+- An offline, symbolic AI assistant
+- Tuned specifically for Phantom Protocol dialogue, memory simulation, and symbolic instruction
+- Efficient enough to run locally
+
+---
+
+## Current Recommended Models
+
+### Mistral 7B (Instruct)
+- Strong balance of size and performance
+- Easily fine-tuned or adapted with LoRA
+- Works well with symbolic tones and dialogue structure
+- Good compatibility with GGUF quantization for offline use
+
+### LLaMA 3 8B (Meta)
+- High quality
+- Supports longer context windows (good for transcripts)
+- New, very capable — but requires more GPU if training from scratch
+
+### Nous Hermes 2 Mistral
+- Already trained with instruction-following behavior
+- Good starting point if you want to test Oracle-style interactions before fine-tuning
+
+---
+
+## Model Hosts + Tools
+
+- Ollama (for running models offline)
+- LM Studio
+- text-generation-webui
+- HuggingFace Transformers
+- PEFT (for LoRA adapters)
+
+---
+
+This list will evolve based on community testing and training results.
+
+If you're helping with tuning, reach out or open an issue.

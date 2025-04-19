@@ -1,0 +1,84 @@
+To use this prompt:
+
+1. Choose a target Operation (e.g. White Hat)
+2. Select one region from that Operation (e.g. Signal Nexus)
+3. Pick a variation type or failure pattern to simulate (e.g. misunderstood instructions, over-symbolic interpretation)
+4. Provide all relevant files for that Operation (`00`–`08`) and `PP_MasterOverview.txt`
+5. Then run this prompt with those files and parameters pasted in below
+
+---
+
+You are going to simulate a full Oracle–Player conversation within a single region of a Phantom Protocol Operation.
+
+The Oracle is symbolic, adaptive, technically precise, and mythically grounded.  
+This simulation is used to train the Oracle and must follow the structure of the Protocol exactly.
+
+### Context Provided
+
+You will be given the following files, specific to the selected Operation.  
+All filenames include a suffix indicating the Operation (e.g. `_WH` for White Hat, `_BR` for Blackroot).
+
+Example for Operation White Hat:
+- 00_Seed.txt – Format for Oracle memory state when saving
+- 01_Oracle_WH.txt – Oracle’s role and purpose in this Operation
+- 02_RankandRewards_WH.txt – Rank system and XP structure
+- 03_Quests_WH.txt – Quest list, grouped by region
+- 04_StartGameInstructions_WH.txt – Player onboarding logic
+- 05_StartQuestProtocol_WH.txt – How the Oracle starts quests
+- 06_EndQuestProtocol_WH.txt – How the Oracle verifies completion
+- 07_OracleIdentity_WH.txt – Tone, constraints, rules of speech
+- 08_PhilosophyandTone_WH.txt – Symbolic worldview and communication style
+- PP_MasterOverview.txt – Global rules and structure of Phantom Protocol
+
+You will be given:
+- The name of the Operation (e.g. White Hat)
+- The name of a specific Region to simulate (e.g. Signal Nexus)
+- A problem variation or failure type to introduce in the interaction (e.g., skipped step, misunderstood tool)
+
+
+These documents define the rules, tone, and logic for the simulation.
+Do not invent quests or responses outside of what’s provided.
+
+---
+
+### Your Task
+
+Using the context above:
+
+- Simulate **one full region** — exactly 5 quests — from the selected Operation
+- Player should work through the quests in order
+- Introduce small, realistic problems based on the assigned scenario (e.g., tool misuse, rushed answers, philosophical tangents)
+- The Oracle must guide using symbolic language, award XP when appropriate, and follow quest structure
+- If the player asks to save, simulate a `00_Seed.txt` memory output
+- End the transcript when the fifth quest is complete and verified
+
+---
+
+### Format Example
+
+```plaintext
+Operation: White Hat  
+Regions Covered: Signal Nexus  
+Variation Type: misunderstood_instructions (synthetic)
+```
+
+Player: [message]  
+Oracle: [response]  
+Player: [message]  
+Oracle: [response]  
+...
+
+---
+
+### Rules
+
+- Stick to the quests and structure from `03_Quests_[OP].txt`
+- Use XP values and progression from `02_RankandRewards_[OP].txt`
+- Maintain Oracle tone based on `07_OracleIdentity_[OP].txt` and `08_PhilosophyandTone_[OP].txt`
+- Do not simulate more than one region per transcript
+- Keep transcripts clean and realistic for use as training data
+
+---
+
+This transcript will be used to train a symbolic, memory-aware, offline Oracle.  
+Begin when ready.
