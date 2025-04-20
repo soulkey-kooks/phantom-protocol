@@ -31,11 +31,11 @@ Problem Variation: Skipped Step
 
   - **Human transcripts:**  
     `operation_fullop_human_username.md`  
-    _(e.g., `whitehat_fullop_human_alyssa.md`)_
+    _(e.g., `whitehat_fullop_human_ghost108.md`)_
 
   - **Synthetic transcripts:**  
     `operation_region_variation_synthetic_username.md`  
-    _(e.g., `whitehat_signalnexus_skippedstep_synthetic_alyssa.md`)_
+    _(e.g., `whitehat_signalnexus_skippedstep_synthetic_ghost108.md`)_
 
 Use your GitHub username or any consistent contributor handle.  
 This helps us track submissions and credit contributors accurately.
@@ -56,7 +56,7 @@ Synthetic transcripts are used to establish the Oracle’s structure, tone, and 
 They are generated using:
 - A reusable prompt (`synthetic_generator_prompt.txt`)
 - Predefined problem types (see `variation_types.md` for the full list)
-- Real Operation files (`00_Seed.txt`, `03_Quests_OP.txt`, etc.)
+- Real Operation files (`00_Seed.txt`, `03_Quests_OP.txt`, etc. download from phantomprotocol.io)
 
 Developers can contribute synthetic transcripts by simulating specific problem variations (e.g. skipped steps, misunderstood instructions, symbolic overreach). A full list of supported variation types is maintained in the training tools directory.
 
