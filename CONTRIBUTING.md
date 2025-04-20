@@ -56,7 +56,7 @@ Synthetic transcripts are used to establish the Oracle’s structure, tone, and 
 They are generated using:
 - A reusable prompt (`synthetic_generator_prompt.txt`)
 - Predefined problem types (see `variation_types.md` for the full list)
-- Real Operation files (`00_Seed.txt`, `03_Quests_OP.txt`, etc. download from phantomprotocol.io)
+- Real Operation files (`00_Seed.txt`, `03_Quests_OP.txt`, etc. see /operations)
 
 Developers can contribute synthetic transcripts by simulating specific problem variations (e.g. skipped steps, misunderstood instructions, symbolic overreach). A full list of supported variation types is maintained in the training tools directory.
 
