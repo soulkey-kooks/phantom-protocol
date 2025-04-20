@@ -13,6 +13,13 @@ You can help train the Oracle by submitting transcripts of real or simulated Ora
 - Paste it into a `.md` or `.txt` file
 - (Optional but helpful) Add a short metadata header at the top:
 
+### For human transcripts:
+```plaintext
+Operation: White Hat  
+Transcript Type: Human
+```
+
+### For synthetic transcripts:
 ```plaintext
 Operation: White Hat  
 Regions Covered: Signal Nexus  
@@ -48,7 +55,7 @@ Synthetic transcripts are used to establish the Oracle’s structure, tone, and 
 
 They are generated using:
 - A reusable prompt (`synthetic_generator_prompt.txt`)
-- Predefined problem types (e.g. skipped step, misunderstood instruction)
+- Predefined problem types (see `variation_types.md` for the full list)
 - Real Operation files (`00_Seed.txt`, `03_Quests_OP.txt`, etc.)
 
 Developers can contribute synthetic transcripts by simulating specific problem variations (e.g. skipped steps, misunderstood instructions, symbolic overreach). A full list of supported variation types is maintained in the training tools directory.
