@@ -22,7 +22,7 @@ Transcript Type: Human
 ### For synthetic transcripts:
 ```plaintext
 Operation: White Hat  
-Regions Covered: Signal Nexus  
+Region Covered: Signal Nexus  
 Transcript Type: Synthetic  
 Problem Variation: Skipped Step
 ```
