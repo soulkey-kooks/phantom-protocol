@@ -16,7 +16,7 @@ These transcripts show how the Oracle responds, adapts, tracks progress, and sim
 - `tuning_instructions.md` – Guidelines for fine-tuning or LoRA training *(coming soon)*
 - `model_recommendations.md` – Suggested open-source base models *(coming soon)*
 - `synthetic_generator_prompt.txt` – Prompt template for generating transcripts with GPT
-- *(Optional)* `generation_log.md` – To track which problems or regions have been covered
+- `variation_types.md` – Official list of synthetic transcript variation types
 
 ---
 
