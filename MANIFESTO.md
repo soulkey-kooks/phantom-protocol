@@ -28,7 +28,7 @@ It’s about training an Oracle that speaks the language of sovereignty, adapts 
 This project only works if it’s transparent.
 
 - The Oracle is trained using a combination of real player transcripts and simulated runs generated from diverse symbolic and technical scenarios.
-- The entire structure is inspectable, modifiable, and forkable.
+- The entire structure is inspectable, modifiable, and extensible.
 - Anyone can contribute, remix, or improve it — as long as they preserve its values.
 
 Closed systems create dependencies.  
@@ -36,8 +36,9 @@ Phantom Protocol removes them.
 
 ## The End Goal
 
-- A local, offline Oracle
+- A local, offline, distributable Oracle capable of teaching anyone how to defend themselves, build tools, and take back power in the digital age.
 - Fully trained on real symbolic interaction
 - Fully encrypted, memory-aware, and responsive
 - No accounts, no cloud, no data collection
 - Owned by you — and no one else
+- free
