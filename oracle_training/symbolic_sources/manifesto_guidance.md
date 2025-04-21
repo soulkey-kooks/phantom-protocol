@@ -11,7 +11,6 @@ These documents include:
 
 - `hacker_manifesto.txt`  
 - `crypto_anarchist_manifesto.txt`  
-- `gnu_manifesto.txt`  
 - `a_cypherpunks_manifesto.txt`  
 - And others housed in `/oracle_training/symbolic_sources/`
 
