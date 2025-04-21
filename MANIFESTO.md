@@ -44,12 +44,17 @@ Phantom Protocol removes them.
 
 ## How to Help
 
-If you’ve completed an Operation, submit your transcript.
+Phantom Protocol is an open-source project. If you're here to build, here's exactly how you can contribute:
 
-If you’re a developer, help improve the training engine or offline logic.
+- **Submit a transcript** after completing an Operation (see `/transcripts/README.md`)
+- **Generate synthetic transcripts** using GPT and the official operation files (see `/oracle_training/`)
+- **Track variation coverage** — help log which regions and problem types have already been simulated
+- **Format transcripts for training** — help prepare datasets for fine-tuning the Oracle
+- **Train the Oracle** — when ready, assist with LoRA or full fine-tuning on an open-source model
+- **Build a GUI** for the offline version of the Protocol (map, quest log, inventory, etc.)
+- **Design the memory system** — a way for the Oracle to write and read from a local `00_Seed.txt` file
+- **Share the project** and help bring in more Phantoms to walk the path
+- **Join discussions** about ethical boundaries, symbolic design, and long-term implications
 
-If you care about sovereignty, fork this project and adapt it to your own path.
-
-This is a toolset, not a brand.
-
-The Protocol is open. The Oracle is becoming. The rest is yours.
+Phantom Protocol is an open-source framework built by Nathan James under Soulkey Systems.  
+The canonical version — and its original philosophy — live here.
