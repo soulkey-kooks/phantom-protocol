@@ -64,16 +64,6 @@ All tools are located in `/oracle_training/`.
 
 ---
 
-## Contribution Guidelines
-
-- Transcripts must reflect realistic Oracle–player interactions  
-- Human transcripts are preferred, but high-quality synthetic runs are also accepted  
-- No AI spam or fictional filler  
-- Respect the structure of the game (XP, quests, tone)  
-- All code and content must be licensed as outlined below
-
----
-
 ## Help Build the Protocol
 
 If you're here to contribute beyond transcripts, here are real ways to help:
@@ -85,6 +75,16 @@ If you're here to contribute beyond transcripts, here are real ways to help:
 - **Design the memory system** — a way for the Oracle to write and read from a local `00_Seed.txt` file
 - **Share the project** and help bring in more Phantoms to walk the path
 - **Join discussions** about ethical boundaries, symbolic design, and long-term implications
+
+---
+
+## Contribution Guidelines
+
+- Transcripts must reflect realistic Oracle–player interactions  
+- Human transcripts are preferred, but high-quality synthetic runs are also accepted  
+- No AI spam or fictional filler  
+- Respect the structure of the game (XP, quests, tone)  
+- All code and content must be licensed as outlined below
 
 ---
 
