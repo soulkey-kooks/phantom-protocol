@@ -64,15 +64,17 @@ All tools are located in `/oracle_training/`.
 
 ---
 
-## Contribute to Code or Training Tools
+## Help Build the Protocol
 
-You can help by:
-- Writing or improving formatting scripts  
-- Creating a local interface to run the Oracle  
-- Assisting with model fine-tuning (LoRA, full training, etc.)  
-- Building visualization or memory tools  
+If you're here to contribute beyond transcripts, here are real ways to help:
 
-Check `/oracle_training/` for the current tooling layout.
+- **Track variation coverage** — help log which regions and problem types have already been simulated
+- **Format transcripts for training** — help prepare datasets for fine-tuning the Oracle
+- **Train the Oracle** — when ready, assist with LoRA or full fine-tuning on an open-source model
+- **Build a GUI** for the offline version of the Protocol (map, quest log, inventory, etc.)
+- **Design the memory system** — a way for the Oracle to write and read from a local `00_Seed.txt` file
+- **Share the project** and help bring in more Phantoms to walk the path
+- **Join discussions** about ethical boundaries, symbolic design, and long-term implications
 
 ---
 
@@ -96,5 +98,8 @@ By contributing, you agree to license your work under:
 See `LICENSE` for details.
 
 ---
+
+Phantom Protocol is an open-source framework built by Nathan James under Soulkey Systems.  
+The canonical version — and its original philosophy — live here.
 
 Thanks for helping expand Phantom Protocol.
