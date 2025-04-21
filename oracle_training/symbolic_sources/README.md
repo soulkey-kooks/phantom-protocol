@@ -22,10 +22,9 @@ They support the Oracle’s role as a sovereign guide — not just a logic engin
 The following texts are included for symbolic integration:
 
 - `hacker_manifesto.txt`  
-- `crypto_anarchist_manifesto.txt`  
-- `gnu_manifesto.txt`  
+- `crypto_anarchist_manifesto.txt`   
 - `a_cypherpunks_manifesto.txt`  
-- `philosophical_notes.md` – selected writings that influence the Oracle’s worldview
+- `philosophical_notes.txt` – selected writings that influence the Oracle’s worldview
 
 All files should be plaintext or markdown.
 
